@@ -10,7 +10,7 @@ import { Collisions, ImpactDamage } from './impact-damage.js';
 
 export class Ball {
   waitingForLaunch = true;
-  speed = 0.75;
+  speed = 0.80;
 }
 
 export class BonusBall {
