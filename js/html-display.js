@@ -19,11 +19,11 @@ export class HTMLDisplaySystem extends System {
     const gameState = this.singleton.get(GameState);
 
     if (gameState.lives == 0) {
-      this.levelTitle.innerText = `Game Over`;
+      this.levelTitle.innerText = `게임오버`;
       this.levelTitle.classList.add('show');
       this.replayButton.classList.add('show');
     } else if (gameState.levelStarting && gameState.level > 0) {
-      this.levelTitle.innerText = `Level ${gameState.level}`;
+      this.levelTitle.innerText = `레벨 ${gameState.level}`;
       this.levelTitle.classList.add('show');
       this.replayButton.classList.remove('remove');
     } else {
@@ -31,7 +31,7 @@ export class HTMLDisplaySystem extends System {
       this.replayButton.classList.remove('show');
     }
 
-    this.scoreDisplay.innerText = `Score: ${gameState.score}`;
-    this.livesDisplay.innerText = `Lives: ${gameState.lives}`;
+    this.scoreDisplay.innerText = `스코어: ${gameState.score}`;
+    this.livesDisplay.innerText = `생명: ${gameState.lives}`;
   }
 }
