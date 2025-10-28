@@ -16,7 +16,7 @@
         "wgsl-preprocessor": "^1.0.0"
     },
     "devDependencies": {
-        "esbuild": "^0.12.15",
+        "esbuild": "^0.25.11",
         "esbuild-plugin-import-map": "^2.1.0"
     }
 }
