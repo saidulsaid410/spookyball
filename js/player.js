@@ -10,7 +10,7 @@ export class GameState {
   level = 0;
   levelStarting = true;
   score = 0;
-  lives = 3;
+  lives = 5;
 };
 
 export class Paddle {
