@@ -1,3 +1,4 @@
+Noted: 
 This is a portfolio project. Hailey is demonstrating how to add contributions to an existing project.
 Enhanced the game difficulty and added Korean translation. 
 
